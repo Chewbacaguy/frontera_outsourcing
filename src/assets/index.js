@@ -8,6 +8,7 @@ import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
 import logo from "./logo.svg";
 import logo2 from "./logo2.png";
+import logo3 from "./logo3.svg";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
 import robot2 from "./robot2.png";
@@ -39,6 +40,7 @@ export {
   dropbox,
   logo,
   logo2,
+  logo3,
   quotes,
   robot,
   robot2,
