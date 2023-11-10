@@ -7,11 +7,11 @@ export const navLinks = [
   },
   {
     id: "features",
-    title: "Features",
+    title: "Services",
   },
   {
     id: "product",
-    title: "Product",
+    title: "Expertise",
   },
   {
     id: "clients",
@@ -23,23 +23,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "White-Collar Services",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Trust us to handle the financial intricacies of your business, from accounting to financial reporting, with precision and professionalism.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Financial Analysis",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Gain valuable insights into your financial performance and make data-driven decisions for a more prosperous future.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Business Growth Strategies",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Collaborate with us to develop and implement strategic plans that drive your business forward, unlocking new opportunities and revenue streams.",
   },
 ];
 
@@ -47,25 +47,25 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
+      "Frontera Outsourcing's deep knowledge of the American accounting system sets them apart. Their team operates with precision and incisiveness, ensuring our financials are in safe hands. Their professionalism and high availability have been a game-changer for us.",
+    name: "John Anderson",
+    title: "CEO, USCorp Solutions",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
+      "Frontera Outsourcing's expertise in American accounting is unmatched. Their team's meticulous attention to detail and 24/7 availability make them the ideal financial partner for our business. They've helped us navigate the complexities of US accounting seamlessly.",
+    name: "Laura Smith",
+    title: "Finance Director, AmeriTech Innovations",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
+      "Frontera Outsourcing stands out in the world of finance. Their complete understanding of the American accounting system and their proactive approach to financial management have been a tremendous asset. Their team's dedication and organization are truly impressive.",
+    name: "Michael Turner",
+    title: "CFO, USA Enterprises",
     img: people03,
   },
 ];
@@ -73,18 +73,18 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Active Employees",
+    value: "20+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "International Allies",
+    value: "10+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Transactions",
+    value: "$50M+",
   },
 ];
 

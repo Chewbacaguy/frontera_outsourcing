@@ -22,22 +22,22 @@ const Business = () =>  (
   <section id="features" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        You do the business, <br className="sm:block hidden" /> we’ll handle
-        the money.
+        Streamline Your <br className="sm:block hidden" /> Business Finances
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        With the right credit card, you can improve your financial life by
-        building credit, earning rewards and saving money. But with hundreds
-        of credit cards on the market.
+      At Frontera Outsourcing, we understand the importance of effective financial management. 
+      Let us handle the money while you do what you do best. Our services include:
       </p>
 
-      <Button styles={`mt-10`} />
+      
     </div>
 
     <div className={`${layout.sectionImg} flex-col`}>
       {features.map((feature, index) => (
         <FeatureCard key={feature.id} {...feature} index={index} />
       ))}
+
+      <Button styles={`mt-10`} />
     </div>
   </section>
 );

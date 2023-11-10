@@ -1,12 +1,17 @@
 import airbnb from "./airbnb.png";
 import bill from "./bill.png";
+import bill2 from "./bill2.png";
 import binance from "./binance.png";
 import card from "./card.png";
+import card2 from "./card2.png";
 import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
 import logo from "./logo.svg";
+import logo2 from "./logo2.png";
+import logo3 from "./logo3.svg";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
+import robot2 from "./robot2.png";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";
@@ -27,13 +32,18 @@ import people03 from "./people03.png";
 export {
   airbnb,
   bill,
+  bill2,
   binance,
   card,
+  card2,
   coinbase,
   dropbox,
   logo,
+  logo2,
+  logo3,
   quotes,
   robot,
+  robot2,
   send,
   shield,
   star,
