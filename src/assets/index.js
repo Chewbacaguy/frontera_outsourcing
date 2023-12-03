@@ -24,10 +24,25 @@ import discount from "./Discount.svg";
 import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
+import marathon from "./marathonCFO.png";
 import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+import qbo from './platforms/qbo.png';
+import xero from './platforms/xero.png';
+import acumatica from './platforms/acumatica.webp';
+import intaact from './platforms/intaact.png';
+import netsuite from './platforms/netsuite.png';
+import billcom from './platforms/bill.webp';
+import melio from './platforms/melio.png';
+import gusto from './platforms/gusto.png';
+import adp from './platforms/adp.png';
+import paychex from './platforms/paychex.svg';
+import mercury from './platforms/mercury.png';
+import brex from './platforms/brex.png';
+import concur from './platforms/concur.png';
+import expensify from './platforms/expensify.png';
 
 export {
   airbnb,
@@ -60,4 +75,19 @@ export {
   people01,
   people02,
   people03,
+  qbo,
+  xero,
+  acumatica,
+  intaact,
+  netsuite,
+  billcom,
+  melio,
+  gusto,
+  adp,
+  paychex,
+  mercury,
+  brex,
+  concur,
+  expensify,
+  marathon
 };

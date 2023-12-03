@@ -1,4 +1,5 @@
 import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import {qbo ,xero,acumatica,intaact,netsuite,billcom,melio,gusto,adp,paychex,mercury,brex,concur,expensify, marathon} from "../assets";
 
 export const navLinks = [
   {
@@ -22,24 +23,31 @@ export const navLinks = [
 export const features = [
   {
     id: "feature-1",
-    icon: star,
-    title: "White-Collar Services",
+    icon: send,
+    title: "Bank Reconciliation",
     content:
-      "Trust us to handle the financial intricacies of your business, from accounting to financial reporting, with precision and professionalism.",
+      "Ensure the accuracy of your financial records by reconciling bank statements with your accounting system, maintaining a clear and precise financial picture.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "Financial Analysis",
+    title: "Credit Card Reconciliation",
     content:
-      "Gain valuable insights into your financial performance and make data-driven decisions for a more prosperous future.",
+      "Efficiently manage your credit card transactions, reconcile statements, and maintain financial accuracy for a complete view of your business finances.",
   },
   {
     id: "feature-3",
-    icon: send,
-    title: "Business Growth Strategies",
+    icon: star,
+    title: "Payroll Processing",
     content:
-      "Collaborate with us to develop and implement strategic plans that drive your business forward, unlocking new opportunities and revenue streams.",
+      "Streamline your payroll operations, from calculating employee salaries to managing tax withholdings, ensuring timely and accurate payroll processing.",
+  },
+  {
+    id: "feature-4",
+    icon: shield,
+    title: "Revenue Recognition",
+    content:
+      "Implement accurate revenue recognition practices, aligning your financial reporting with the revenue earned during specific accounting periods.",
   },
 ];
 
@@ -48,26 +56,26 @@ export const feedback = [
     id: "feedback-1",
     content:
       "Frontera Outsourcing's deep knowledge of the American accounting system sets them apart. Their team operates with precision and incisiveness, ensuring our financials are in safe hands. Their professionalism and high availability have been a game-changer for us.",
-    name: "John Anderson",
-    title: "CEO, USCorp Solutions",
-    img: people01,
+    name: "Jhonny Stwart",
+    title: "MarathonCFO.com",
+    img: marathon,
   },
-  {
-    id: "feedback-2",
-    content:
-      "Frontera Outsourcing's expertise in American accounting is unmatched. Their team's meticulous attention to detail and 24/7 availability make them the ideal financial partner for our business. They've helped us navigate the complexities of US accounting seamlessly.",
-    name: "Laura Smith",
-    title: "Finance Director, AmeriTech Innovations",
-    img: people02,
-  },
-  {
-    id: "feedback-3",
-    content:
-      "Frontera Outsourcing stands out in the world of finance. Their complete understanding of the American accounting system and their proactive approach to financial management have been a tremendous asset. Their team's dedication and organization are truly impressive.",
-    name: "Michael Turner",
-    title: "CFO, USA Enterprises",
-    img: people03,
-  },
+  // {
+  //   id: "feedback-2",
+  //   content:
+  //     "Frontera Outsourcing's expertise in American accounting is unmatched. Their team's meticulous attention to detail and 24/7 availability make them the ideal financial partner for our business. They've helped us navigate the complexities of US accounting seamlessly.",
+  //   name: "Laura Smith",
+  //   title: "Finance Director, AmeriTech Innovations",
+  //   img: people02,
+  // },
+  // {
+  //   id: "feedback-3",
+  //   content:
+  //     "Frontera Outsourcing stands out in the world of finance. Their complete understanding of the American accounting system and their proactive approach to financial management have been a tremendous asset. Their team's dedication and organization are truly impressive.",
+  //   name: "Michael Turner",
+  //   title: "CFO, USA Enterprises",
+  //   img: people03,
+  // },
 ];
 
 export const stats = [
@@ -177,21 +185,21 @@ export const socialMedia = [
   },
 ];
 
+
 export const clients = [
-  {
-    id: "client-1",
-    logo: airbnb,
-  },
-  {
-    id: "client-2",
-    logo: binance,
-  },
-  {
-    id: "client-3",
-    logo: coinbase,
-  },
-  {
-    id: "client-4",
-    logo: dropbox,
-  },
+  { id: 'qbo', logo: qbo, type: 'Accounting & ERP' },
+  { id: 'xero', logo: xero, type: 'Accounting & ERP' },
+  { id: 'acumatica', logo: acumatica, type: 'Accounting & ERP' },
+  { id: 'intaact', logo: intaact, type: 'Accounting & ERP' },
+  { id: 'netsuite', logo: netsuite, type: 'Accounting & ERP' },
+  { id: 'billcom', logo: billcom, type: 'AP Automation' },
+  { id: 'melio', logo: melio, type: 'AP Automation' },
+  { id: 'gusto', logo: gusto, type: 'Payroll' },
+  { id: 'adp', logo: adp, type: 'Payroll' },
+  { id: 'paychex', logo: paychex, type: 'Payroll' },
+  { id: 'mercury', logo: mercury, type: 'Startup Banking and Payment' },
+  { id: 'brex', logo: brex, type: 'Startup Banking and Payment' },
+  { id: 'concur', logo: concur, type: 'Expense Management' },
+  { id: 'expensify', logo: expensify, type: 'Expense Management' },
+
 ];

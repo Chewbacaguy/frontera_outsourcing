@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
           {/* <img src={discount} alt="discount" className="w-[32px] h-[32px]" /> */}
           <p className={`${styles.paragraph} ml-2`}>
-            <span className="text-white">🇲🇽</span> Maquiladora {" "}
+            <span className="text-white"></span> Maquiladora {" "}
             <span className="text-white"> Accounting </span> Services in Mexico.
           </p>
         </div>
@@ -25,15 +25,21 @@ const Hero = () => {
         </div>
 
         <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
-          for White-Collar Services. 
+          for Accounting Support Services. 
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        At Frontera Outsourcing, we specialize in providing top-tier accounting services tailored to American businesses. 
-        Our expertise in American accounting standards, incisive approach, and unwavering professionalism set us apart. 
-        Let us optimize your financial processes for success.
+          At Frontera Outsourcing, we specialize in providing top-tier accounting services tailored 
+          to American accounting firms. Our expertise aligns 
+          seamlessly with the needs of US CPA FIRMS and US BOOKKEEPING FIRMS, ensuring precision and 
+          compliance. Additionally, we offer comprehensive Bookkeeping support, Accounting support, 
+          and Outsourced Accounting solutions. We cater to Outsource Accounting Firms, providing a 
+          proximity advantage for companies already leveraging Indian or Philippine outsourcing. Our 
+          services act as a reliable 'Backup' or 'Redundancy' option, especially beneficial for companies
+          seeking scale and safety in their financial processes.
         </p>
-      </div>
 
+      </div>
+    
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
         <img src={robot2} alt="expertise frontera outsourcing" className="w-[90%] h-[100%] relative z-[5]" />
 
@@ -47,7 +53,9 @@ const Hero = () => {
       <div className={`ss:hidden ${styles.flexCenter}`}>
         <GetStarted />
       </div>
+
     </section>
+    
   );
 };
 
