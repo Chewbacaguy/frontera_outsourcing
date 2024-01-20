@@ -1,21 +1,23 @@
+import React from 'react';
+import { useNavigate } from 'react-router-dom'; // Import useNavigate for React Router v6
 import styles from "../style";
 import { arrowUp } from "../assets";
 
-const GetStarted = () => (
-  <div className={`${styles.flexCenter} w-[140px] h-[140px] rounded-full bg-blue-gradient p-[2px] cursor-pointer`}>
-    <div className={`${styles.flexCenter} flex-col bg-primary w-[100%] h-[100%] rounded-full`}>
-      <div className={`${styles.flexStart} flex-row`}>
-        <p className="font-poppins font-medium text-[18px] leading-[23.4px]">
-          <span className="text-gradient">Get</span>
-        </p>
-        <img src={arrowUp} alt="arrow-up" className="w-[23px] h-[23px] object-contain" />
-      </div>
+const GetStarted = () => {
+  const navigate = useNavigate(); // useNavigate for navigation
+
+  const navigateToContact = () => {
+    navigate('/contact'); // Navigate to the contact page
+  };
+
+  return (
+    <div onClick={navigateToContact} className={`${styles.flexCenter} w-[140px] h-[140px] rounded-full bg-blue-gradient p-[2px] cursor-pointer`}>
+      <button type="button" className={`${styles.flexCenter} font-bold text-center p-2 cursor-pointer` }>
+      Free consultation
+      </button>
       
-      <p className="font-poppins font-medium text-[18px] leading-[23.4px]">
-        <span className="text-gradient">Started</span>
-      </p>
     </div>
-  </div>
-);
+  );
+};
 
 export default GetStarted;

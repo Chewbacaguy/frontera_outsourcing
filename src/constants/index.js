@@ -56,26 +56,26 @@ export const feedback = [
     id: "feedback-1",
     content:
       "Frontera Outsourcing's deep knowledge of the American accounting system sets them apart. Their team operates with precision and incisiveness, ensuring our financials are in safe hands. Their professionalism and high availability have been a game-changer for us.",
-    name: "Jhonny Stwart",
-    title: "MarathonCFO.com",
+    name: "Jim Stwart",
+    title: "MarathonCFO Team",
     img: marathon,
   },
-  // {
-  //   id: "feedback-2",
-  //   content:
-  //     "Frontera Outsourcing's expertise in American accounting is unmatched. Their team's meticulous attention to detail and 24/7 availability make them the ideal financial partner for our business. They've helped us navigate the complexities of US accounting seamlessly.",
-  //   name: "Laura Smith",
-  //   title: "Finance Director, AmeriTech Innovations",
-  //   img: people02,
-  // },
-  // {
-  //   id: "feedback-3",
-  //   content:
-  //     "Frontera Outsourcing stands out in the world of finance. Their complete understanding of the American accounting system and their proactive approach to financial management have been a tremendous asset. Their team's dedication and organization are truly impressive.",
-  //   name: "Michael Turner",
-  //   title: "CFO, USA Enterprises",
-  //   img: people03,
-  // },
+  {
+    id: "feedback-2",
+    content:
+      "Frontera Outsourcing's expertise in American accounting is unmatched. Their team's meticulous attention to detail and 24/7 availability make them the ideal financial partner for our business. They've helped us navigate the complexities of US accounting seamlessly.",
+    name: "Ben Richmond",
+    title: "Xero Team",
+    img: xero,
+  },
+  {
+    id: "feedback-3",
+    content:
+      "Frontera Outsourcing stands out in the world of finance. Their complete understanding of the American accounting system and their proactive approach to financial management have been a tremendous asset. Their team's dedication and organization are truly impressive.",
+    name: "Connie Hammel",
+    title: "Quick Books Team",
+    img: qbo,
+  },
 ];
 
 export const stats = [
